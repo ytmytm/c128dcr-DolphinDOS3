@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "PCM_65xx-library(ProjectLocal)")(type "KiCad")(uri "${KIPRJMOD}/retrolib/symbols/65xx-library.kicad_sym")(options "")(descr "RetroLib: KiCad Symbol Library for 6502 and related retro microchips"))
+  (lib (name "local_symbols")(type "KiCad")(uri "${KIPRJMOD}/locallib/local_symbols.kicad_sym")(options "")(descr ""))
+)
