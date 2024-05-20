@@ -13,6 +13,8 @@ All the Kicad files are in dolphindos3-kicad/ folder.
 
 Also check dolphindos3-kicad/plots for schematic PDF and gerbers for manufacturing.
 
+Branch `sd-rev2a` is frozen to reflect SD! design recovered from Gerber files he published and with recreated schematic.
+
 ## Design changes
 
 - IDC socket and CPU socket swapped around, additional footprint for pins going down to C128DCR U101 socket
@@ -32,7 +34,7 @@ Firmware is in roms/ folder:
 
 - dd2_kernal_rom.bin - C64 DolphinDOS 2 Kernal, it works with drive's DolphinDOS 3
 - sd_dd2_kernal_rom.bin - same, customized by SD!
-- kernal-dolphin128.bin - C128 DolphinDOS Kernal, for C128DCR (32K U32 ROM) it has to be combined with C64 Kernal and C64 Basic
+- kernal-dolphin128.bin - C128 DolphinDOS Kernal, for C128DCR (32K U32 ROM) it has to be combined with C64 Kernal (dd2_kernal_rom.bin) and C64 Basic
 - 3dosa_c_27c256_payload.bin - 1541 DolphinDOS 3 ROM
 - 1571-dolphin-dos-3.bin - 1571 DolphinDOS 3 ROM, works in C128DCR (1571CR) as well as standalone 1571 or internal 1571 from C128D
 
