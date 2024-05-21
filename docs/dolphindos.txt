@@ -1,0 +1,334 @@
+The following document was written into electrical form by Tony Cavén.
+All rights reserved remain on the original copyright owner.
+Writing has been done to preserve the document and as it seems to be in demand
+due to the small number of original printed versions remaining.
+
+Any questions or comments or corrections concerning this document
+to Tony Cavén:  maumiu@freenet.hut.fi
+
+
+doc start
+----------------------------------------------
+
+THE DOLPHIN DOS
+
+Designed by Jan Bubela & Gunther Jiig
+
+Produced and distributed in the U.K. by Evesham Micros
+Bridge Street, Evesham, Worcestershire
+Tel: 0386 41989
+
+INSTALLING
+
+Fitting the hardware for "Dolphin DOS" is not a difficult task but one that requires great care to be taken. Evesham Micros can not be held responsible for any damage that may result to either the Dolphin DOS or the equipment to which it is to be fitted as a result of either the fitment or attempted fitment of the Dolphin DOS.
+Before starting read the instructions for fitting and if you have any doubt about your ability to proceed with the job then don't do it. Get someone with the appropriate knowledge/ability to do the job for you. If you have a '64 with a soldered in kernal chip and the prospect of desoldering it is a little daunting, then get someone to do it for you. Anyone involved in TV/radio repairs or a radio amateur will be able to do it.
+
+PART ONE... The 1541
+
+Disconnect both the power and serial leads from the 1541. Turn it upside down and use a posidrive screwdriver to remove the four cover retaining screws. Turn the unit back over and remove the top. You will now be able to gain access to the necessary parts. Two chips must be removed as shown in diagram 1. These are socket numbers UC3 and UC4, chip numbers 6502 and 6522 respectively. Before doing this checkt that socket number UC2 is alongside UC3 and that this also contains a chip numbered 6522. If not then Dolphin DOS is not suitable for your drive and you cannot proceed no further. (Only a relatively small amount of early 1541s have this non standard layout.) Use a small electrical flat bladed screwdriver to carefully lever the chips out of their socket, put them somewhere safe.
+Take the larger of the two circuit boards supplied as part of the Dolphin DOS look at the position it will take when inserted in the sockets vacated by the chips that you have just removes. The vacant sockets in the Dolphin DOS board are to the right. When you are sure you have the orientation correct insert the pins on the underside of the board into the sockets that are now vacant in the disc drive. This is best done by getting down to eye level to check the alignment, then pressing firmly on top of the board squarely above the sockets. It may be necessary to bend one or two capacitors down so that they lie more flush to the board in order to get the pins fully inserted into the sockets.
+Once is correctly fitted you can the refit the two chips that you reamoves earlier, into the vacant sockets in the Dolphin DOS board. These must be fitted back in the same positions as when removed, therefore refer to diagram 1. Be sure that the chips are facing the correct way. Ie. the end with the notch MUST BE closest to the back of the drive. if the legs of the chips are splayed out too much to fit easily bac in to the socket press both sides of legs against a flat surface until they are square to the top face.
+As you will have seen there are two cables leading from the Dolphin DOS board. One of these is the cable which connects to the '64. This one is easily distinguishable by being much longer that the other and haveing a plug suitable for connection to the user port fitted. This one can be lead out of the 1541 through the area of the power input socket. No special opening is needed as it is easy to route it through there and still be able to plug the power plug in and out when necessary. The other cable has a switch fitted and to make a good job of the fitting you will need to drill a small hole in which to mount the switch. This can be to your choice, the front left or right hand side will be the most convenient, but you may prefer to use the back panel as the least damaging to your drive. If you have strong reservations about drilling a hole in your drive casing then you could leave the switch hanging out of the join in the casing when you put the top back on.
+At this stage we suggest that you put the top cover loosely on the base while the rest of the fitting is completed. It can be refitted after testing.
+
+PART TWO... The '64
+
+AFter disconnecting all connections to the '64 use a posidrive screwdriber to remove the three screws situated on the front underside of the '64, turn it back over and hinge the keyboard part upwards. Taking care to make a mental note of their positions, disconnect both the sets of wires leading from the keyboard to the circuit board. Bot the connections are of the plug type and can be pulled off at the circuit board end. Some '64s have, what looks like, a large piece of tin obscuring the circuit board(it is in fact a heat sink). If you have one of this type then this must be removed by removing the retaining screws. Referring to diagram 2 locate the position of the kernal chip. This may be either soldered in or fitted into a socket, as was the case with the chips in the 1541. if the chip is on a socket remove it and replace it with the other circuit board provided, ensuring that the notch on the chip fitted in the board is to the rear of the computer.
+If the kernal chip is soldered in then it is necessary to remove it and fit a socket in the space. To do this you will need to remove the circuit board of the '64 from its mounting by removing the screws that locate it to the base. To desolder the chip in question you will need a soldering iron of around 25 watts and a solder sucker. Do NOT attempt this part if you don't have a solder sucker or if you don't feel confident in doing it. From the underside of the board heat up one pin of the chip at a time and when the solder is molten use the sucker to remove the solder. Do this to all pins repeatedly until the chip is free. Once the chip is out give the area vacated a good inspection and remove any surplus bits of solder that may be present. When the position looks ready insert the socket provided into the board and solder it in, taking care not to apply too much solder. When it is in inspect the work to ensure that all pins are soldered correctly and that no excess solder is bridging any pins or tracks. When you are happy with the job refit the board into the base and then fit the small board into the socket with the notch on the chip to the rear of the computer.
+The switch that trails from the board can be mounted in a convenient position on the back panel or left to trail out through the cassette port. The '64 can now be reassembled.
+
+...OR THE '128
+
+Owners of the CBM 128 can follow the general instructions for the '64. Removing the case involves removing 6 screws, the top can then be removed with a firm touch as it also clips together at a point level with the top row of keys of the keyboard. The heat sink requires the removal of another 6 screws so that it may be taken out of the casing. With the curcuit board now exposed refer to diagram number 3 and ascertain the position of the '64 kernal chip. Remove this and replace it with the '128 Dolphin DOS kernal. Take care that the notch is towards the front of the computer. If your new kernal chip is on a circuit board it is the '64 type and must be exchanged. The unit can now be reassembled.
+  	       	    THE '128 KERNAL IS DIFFERENT TO THE '64 VERSION
+
+TESTING
+
+Now that you have the parts fitted reconnect the '64 to the power supply and monitor/TV and switch on. It should start up as normal but depending on which position the switch is is you will get either the standard CBM start up message or a message that includes the presence of "Dolphin DOS 2.0". Switch the '64 off and try the other position and check that everything is satisfactory. If not you will have to go back and check over everything that you have done.
+
+When you are happy with the '64 switch off and reconnect the 1541 as normal, plus the parallel cable connector to the user port with the side marked "TOP" uppermost. Switch the '64 back on with the switch in the position that gives the "Dolphin DOS 2.0" message. Now switch on the 1541 and press F8. You will get one of two responses depending on the position of the new switch on the 1541. If you get "SYNTAX ERROR" switch the drive off again, alter the position of the new switch that you fitted and switch the 1541 back on again. Press F8 again and the screen should give a report like this:
+02,:R+:F+:V+:P+:,00,08
+This is the status of the Dolphin DOS and shows that it is installed correctly and ready to work. If you don't get this result you will have to check that everything is fitted correctly and that you have followed these instructions to the letter. Once everything is satisfactory the 1541 can be fully reassembled but before doing so it may be useful to be sure that the switch that you have fitted to it is working as you would like. It is easy at this stage to position it so that up is off and down is on, which may be preferable in use.
+
+OPERATION
+- A BRIEF SUMMARY
+
+Dolphin DOS provides a complete parallel DOS for the 1541
+some features of which are:
+	LOAD 202 block program in  5 secs. (5.9 inc. SEARCH)
+	SAVE 202 block program in 10 secs. (includes VERIFY)
+	LOAD SEQ files at 10x normal speed
+	SAVE SEQ files at  8x normal speed
+	LOAD and SAVE REL files at 3x normal speed
+	@ command is used to send disc commands
+	Fast FORMAT 35/40 tracks in less thatn 20 secs
+	Or in 12-13 secs without verify
+	SCRATCH and VALIDATE etc. 6x normal speed
+
+LOADING, SAVING and VERIFYING
+
+The LOAD, SAVE and VERIFY commands can be used as with the standard 1541, however, many abbrevations and easy methods are provided.
+When using any of the above commands it is NOT necessary to supply either device number or secondary address in fact not even the closing quotation mark is needed.
+
+	eg. LOAD"NAME	           or SAVE"NAME
+   replaces LOAD"NAME",8,1   replaces SAVE"NAME",8,1
+
+However in many cases even these can be made simpler. If you want to do a LOAD"*",8,1 then this can be achieved simply by pressing SHIFT RUN/STOP which also performes a RUN after LOADing. (This does not work with ALL autobooting programs. If it fails on a particular program use F5). Another very convenient way of LOADing programs is to press F7 which will display the disc directory then use the cursor keys to take the cursor to the line of the program which you want to LOAD. Now you can either press F5 which will perform a LOAD"PROG",8,1 on the selected program or you can press SHIFT RUN/STOP which has the added adcantage of performing a RUN which makes it more suitable for programs that do not have an autoboot.
+When SAVEing the use of VERIFY afterwards is not really necessary because all SAVEs are verified automatically, unless that is, you have deselected this option.
+SAVE and REPLACE is an area of CBM DOS that has caused much grief to many people. The notorious bug has been eradicated within Dolphin DOS so it can be used with confidence. The following syntax is used: 
+
+				SAVE "@:NAME
+
+However, this can be speeded up by using F6 which will produce the SAVE"@: to which you just need to add a filename.
+The same syntax abbrevations apply to VERIFY commands however the use of F4 is usually more convenient.
+
+CBM SYNTAX ABBREVATIONS AND THE WILD CARD(*) CAN BE USED AS NORMAL WITH DOLPHIN DOS
+
+USING TAPE
+The Dolphin DOS kernal does not support tape commands, therefore to use tape you must switch to the standard CBM kernal.
+
+PROGRAMS THAT DON'T LOAD WITH DOLPHIN DOS
+The designers of Dolphin DOS have done their utmost to make Dolphin DOS compatible with as much commercial software as possible, however, due to the sophistication of some of the protection techniques used some programs will not work correctly. There are some ways to help overcome problems. The following alterations should enable you to LOAD any program but in some cases it will be at standard speed.
+
+1...LOAD with secondary address of2, ie. LOAD"NAME",8,2
+2...Type @XF-(RETURN)						before LOADing
+3...Type CTRL-X to turn off function keys			  "	  "
+4...Type @XR-(RETURN) to deselect RAM				  "       "
+5...Type @XP-(RETURN) to deselect parallel bus			  "       "
+6...Switch the Dolphin DOS off at the 1541			  "	  "
+7...Switch the Dolphin DOS off at the '64			  "       "
+
+The last two are not required very often and indeed the writer of these instructions has never needed to resort to number 7.
+
+"FREEZE FRAME" CAN BE USED TO MAKE A BACKUP OF PROGRAMS THAT WILL RELOAD AT SPEED
+
+"Freeze Frame Mk.III" will allow you to make a backup of programs that will allow you to make the most of the speed of "Dolphin DOS". Large  programs will reload in less that 15 seconds including the time to decompress.
+
+THE DOLPHIN DOS STATUS
+
+As referred to in the installation section pressing F8 gives a readout of the Dolphin DOS status. F8 achieves the same as typing @X(RETURN), the relevance of the message is as follows.
+
+Example status report:   02,R+:F+:V+:P+:,35,08
+
+R+ means that the Dolphin DOS RAM is active.
+   Read and write operations use the RAM. @XR- will deselect RAM while @XR+ will reselect.
+   With the RAM disabled the normal loading speed is doubled.
+
+F+ means the fast LOAD/SAVE is active
+   Typing @XF- deselects the fast LOAD but leaves RAM active. This results in a 7x normal      LOAD speed. This is useful for some programs that manipulate the RUN/STOP vector while      LOADing. The speed alterations on SEQ/REL files are not affected by this. 
+   @XF+ reselects fastLOAD.
+
+V+ means that VERIFY after SAVE is active.
+   Deselecting with @XV- will give a speed increase in SAVE of 2 secs on 202 block or 7 secs    on a FORMAT. We recommend that you leave this selected at all times. @XF+ reselects.
+
+P+ means that the parallel bus is selected.
+   Deselecting with @XP- returns the loading to normal. This command is not often used as    most software will switch out the bus if it is not compatible.
+
+35 is the number of tracks used on the disc.
+
+08 is the selected device address.
+
+NOTE: These parameters are not altered when a program resets the drive, so the parameters will not be altered by a user program. @X+ will return all parameters to normal at any time, just like turning the drive off and back on. @X- will deselect parallel, RAM and set 35 tracks making it fairly much as standard CBM DOS.
+
+SENDING DISC COMMANDS
+
+The @ command is used to send disc commands. This replaces the normal CBM jumble of syntax and is used in the same way as DOS 5.1 which you may be familiar with.
+
+eg.	@S:PROG1	(RETURN) will scratch a file named PROG1
+	@I		"	 will initialise drive
+	@V		"	 will validate disc
+	@$		"	 displays directory
+	@N:NAME,ID	"	 formats disc
+	@N:NAME,ID+	"	 formats with 40 tracks (749 blocks)
+
+NOTE: Dolphin DOS will only recognize it's own 40 track format and discs that have 40 tracks used can only be used by a Dolphin DOS equipped drive when tracks beyond 35 are accessed. Fast scratch and validate will not work if there are errors on the disc; use @XR- and try again.
+
+The @ command can also be used in your own programs, even with variables, you just have to use the " (quotation mark) behind the @ command. eg.
+
+10 @"$ (where 10 is the line number and a directory display is needed)
+
+NEW DISC COMMANDS
+
+All new disc commands include X (as with status commands)
+
+	@XL:FILENAME
+This will scratchprotect (LOCK) a file.
+	
+	@XU:FILENAME
+This will perform the opposite of scratchprotect (UNLOCK).
+
+	@X9",8 (same as @X9",8,0)
+This will change the device address to 9. The secondary address must be used.
+
+	@XT-
+This fixes the tracks to be used to 35. Can be used to test if a disc has files on tracks 36-40 by typing @V after setting. If you get correct validation no files exist, if you get "Illegal track or sector" error then files do exist.
+
+	@XT+
+This fixes the tracks to be used to 40. This can be used to read tracks 36-40 of another system. use a file copy program to transfer from a non-Dolphin DOS disc to a Dolphin DOS disc. Don't use this to write to a non-Dolphin DOS disc as you don't know where the BAM
+of the extra tracks is.
+
+	@XT
+This reverts to the autoselection of the number of tracks.
+
+NOTE: when tracks are fixed this is designated with an ! on the status report.
+
+CHANGING DEFAULT DRIVE ADDRESS
+
+Normally the computer LOADs, SAVEs and sends commands to the drive 8. If you have two drives you can change the default using the command @9 (RETURN). Once you have done this all operations will default to device number 9 unless you specify device 8. eg. @$"8
+
+PLEASE NOTE: It may seem that @X9 and @9 do the same thing but the first alters the drive from device 8 to 9, whereas the latter does nothing to the drive but alters the device which the computer addresses.
+
+THE FUNCTION KEYS
+
+The function keys are programmed to respond as follows-
+
+	F1	LIST(RETURN)
+	F2	SYS$0 (JUMP TO MONITOR)
+	F3 	RUN(RETURN)
+	F4	VERIFY(RETURN)
+	F5	LOAD"0:*",8,1(RETURN)
+	F6	SAVE"@:(ADD PROG NAME AND RETURN)
+	F7	DISPLAY DIRECTORY
+	F8	@X(RETURN)
+C= + 	F1	OPEN4,4:CMD4:LIST(OUTPUT TO PRINTER)
+C= +	F3	SCROLL BACKWARDS IN MONITOR
+C= +	F5	SCROLL FORWARDS IN MONITOR
+C= + 	F7 	LOAD			,8,2
+
+Once a program is LOADed these will normally be overwritten, if any problem arise due to the use of the function keys they can be switched out by pressing CTRL and X (This also clears the areas of memory from $293 - $299 and $334 - $3FF). This can be reversed by typing (RETURN).
+
+THE SCREEN EDITOR
+
+The screen editor commands are used by pressing CTRL and the appropriate letter.
+	
+	CTRL B	 cursor to bottom of screen
+	CTRL G	 cursor 20 columns forward
+	CTRL L	 delete line left of cursor
+	CTRL K	 delete line right of cursor
+	CTRL @ 	 displays drive status
+	CTRL D	 displays directory
+	CTRL A	 repeat for all keys on/off
+	CTRL *	 hardcopy of textscreen to printer
+	CTRL V	 initialise videocontroller
+	CTRL X	 turn off FUNCTION keys
+	CTRL &	 turn on FUNCTION keys
+	CTRL DEL reads text to buffer, deletes it on screen but not in memory.
+	C=   DEL fetches text from buffer and displays it on screen.
+	     press RETURN to change the lines in memory
+
+THE MONITOR
+
+The monitor is started either with SYS0, if there is no other monitor active, or directly with SYS$F (=SYS$F000). It displays the registers...
+
+		SR AC XR YR SP  PC  NV-BDIZC
+	,;	32 00 FF 00 F9 F2BC 00110010
+
+SR is the flags in hexadecimal.
+Registers can be changed by overwriting them. The status flags have to be changed hexadecimal on SR. PC cannot be changed, however this does not matter as you have to enter an address with the go command.
+
+M ADDRESS
+Displays 8 bytes in HEX and ASCII starting with address.
+
+A ADDRESS
+Displays 32 bytes in ASCII.
+You can then scroll through memory with C= F3 or back with C= F5. Change from HEX to ASCII and VV. by entering simply A or M
+
+W ADDRES TEXT
+Writes the ASCII-TEXT to address.
+
+@ COMMAND
+Send disc commands, display directory etc.
+
+L FILE"2000
+LOADs "FILE" at address $2000. If you omit the address, the program is loaded at the stored start address, you can also omit the ".
+
+V FILE"2000
+VERIFYs "FILE" at address $2000. If you omit the address, the program is loaded at the stored start address, you can also omit the ".
+
+S FILE"2000
+SAVEs file to standard device from $2000 to $BFFF. If you wish to save to drive 9 change the device with @9.
+
+G ADDRESS
+Jumps to address, takes stored registers.
+
+X
+Return to BASIC
+
+The appendix to these instructions includes a listing for MON.FT which provides redefined function keys to suit the monitor.
+
+ADDITIONAL BASIC COMMANDS
+
+The & symbol is used for the additional BASIC commands.
+	
+	&NUMBER will display the number in HEX and decimal.
+	The number can be in HEX decimal, or be a variable.
+
+	&* will restore a BASIC program after NEW or reset.
+	Often known as an "OLD" command.
+
+	& alone will restore the old function key commands.
+
+RESET AND RESTORE
+
+RESET and SPACE when pressed simultaneously will auto start modules or programs at $8000 (CBM80)
+
+RESET and RUN/STOP performs warm start like RUN/STOP RESTORE, BASIC programs are still in memory.
+
+RESET and Q is similar to RESET and RUN/STOP but the hardware vectors are not changed. Monitors stay initialised.
+
+RESET and 1 will the memory with zero.
+
+RESET and CTRL jumps in to active monitor.
+
+These commands also work with RESTORE. In fact RESTORE and CTRL has the advantage that the correct PC is displayed which is useful for debugging.
+
+USER PORT CENTRONICS
+
+The Dolphin DOS supports a user port centronics printer which is recognized automaticalle when addressing device 4. Use a secondary address of 7 to change upper and lower case characters to ASCII ie, OPEN4,7
+
+ADDENDUM
+
+When operating in Dolphin DOS mode the disc drive will start running once the disc is inserted. This is to allow the disk to be centralised on the hub and is quite normal.
+
+A user port expansion card is now available from Evesham Micros. This also incorporates a reset switch. Price £19.95
+
+DOLPHIN DOS '128 KERNAL ('64 MODE)
+
+The '128 kernal for the Dolphin DOS will inhibit the use of the cassette routines, that memory area being used for the new high speed routines. Sorry about that, if this is not acceptable to you please return the unit for refund.
+
+A kernal switch over board for '128 in '64 mode is available at £15.00 This will allow the choice of switching between the new kernal and the old one.
+
+Kernals to allow the CBM 128 to operate at high speed in '128 mode are now available. Prices at £14.94. (the use of this will inhibit the use of the cassette routines, which is of virtually no importance in '128 mode.)
+
+A copy program called "DOLPHIN COPY" is available, this includes a disc copier that will copy a 35 track disc in 18 seconds and a selective file copier that utilises the speed of "Dolphin DOS", price £7.95.
+
+
+					diagram 1
+
+				   1541 CIRCUIT LAYOUT
+  			      [omitted for obvious reasons]
+
+
+
+
+
+					diagram 2
+
+			       COMMODORE 64 CIRCUIT LAYOUT
+			      [omitted for obvious reasons]
+
+Please note that the Kernal Chip is always 4th from the left as the layout of the 64 Board can vary.
+
+
+
+
+					diagram 3
+
+			      COMMODORE 128  CIRCUIT LAYOUT
+			      [omitted for obvious reasons]
+
+
+
+
+---------------------------------
+doc end
