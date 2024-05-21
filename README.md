@@ -122,7 +122,7 @@ Firmware is in [roms/](roms/) folder:
 
 [Supposedly](https://www.forum64.de/index.php?thread/21490-dolphindos/) the C128 Kernal ROM is based on earlier revision than the one used in C128DCR. This means it should be compared against stock ROM and reapplied on the last revision of the C128 Kernal.
 
-The same ROM is used for all 1571 drives. The 1571CR from C128DCR has a different MFM controller, so this part supposedly doesn't work anymore. Again, if DD3 ROM would be compared against stock 1571 DOS hopefully changes could be reapplied on the 1571CR ROM. However I think it's not as important as the Kernal isue.
+The same ROM is used for all 1571 drives. The 1571CR from C128DCR has a different MFM controller, so this part supposedly doesn't work anymore. Again, if DD3 ROM would be compared against stock 1571 DOS hopefully changes could be reapplied on the 1571CR ROM. However I think it's not as important as the C128 Kernal issue.
 
 # Quick tests
 
