@@ -31,9 +31,12 @@ Branch `sd-rev2a` is frozen to reflect SD! design recovered from Gerber files he
 - 6x DIP 14 sockets
 - 2x DIP 28 sockets
 - 3x DIP 40 sockets
-- 62256 or 6264 SRAM
-- 32K or 64K EPROM/EEPROM (e.g. 27E512)
-- PIA 6821 (e.g. MC6821L)
+- 1x 74LS04
+- 3x 74LS08
+- 2x 74LS32
+- 1x 62256 or 6264 SRAM
+- 1x 32K or 64K EPROM/EEPROM (e.g. 27E512)
+- 1x PIA 6821 (e.g. MC6821L)
 - 9x 0.1uF capacitors (104)
 - 4x 10K resistors
 - 5x 2-pin square goldpins and jumpers
@@ -42,6 +45,8 @@ Branch `sd-rev2a` is frozen to reflect SD! design recovered from Gerber files he
 - 10 pin IDC socket
 - 10 pin IDC connector
 - user port connector
+
+For logic chips 74xx the HCT or F series is fine too.
 
 Optionally (not needed for C128DCR):
 
