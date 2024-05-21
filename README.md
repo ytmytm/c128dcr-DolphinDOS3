@@ -69,6 +69,8 @@ I have omitted JP2 because C128DCR has drive reset built-in.
 
 Since I have kernal switcher I should have omitted JP3 and just solder a wire between JP3 square pin and U32 pin 1 (A15 pin) from the very beginning.
 
+For the same reason I'm not going to use JP1 to disable DolphinDOS. It's enough for me to switch between top 32K of ROM chips with DolphinDOS 3 and the bottom half with JiffyDOS. Shorting JP1 would disable PIA, RAM expansion and would use the onboard DOS ROM.
+
 Assembly is quite easy but there is a lot of solder points - over 200. If I ever do a second revision I would replace all the logic by two GALs of just go with SMD for 74xx logic.
 
 ## Installation in C128DCR
