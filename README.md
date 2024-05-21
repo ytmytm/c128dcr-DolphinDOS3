@@ -26,17 +26,40 @@ Branch `sd-rev2a` is frozen to reflect SD! design recovered from Gerber files he
 - JP3 makes JP1 obsolete you can switch between stock (or JiffyDOS) and DolphinDOS on the fly; JP1 can be used to disable onboard RAM
 - support for 32K (62256) and 8K (6264) SRAM chips; for 32K option additionally JP4 and JP5 choose if PIA port B bits 0 and 1 are used to select 8K bank visible in $6000-$7FFF range; this is not supported by any software right now; you can keep those jumpers open
 
+## Parts
+
+- 6x DIP 14 sockets
+- 2x DIP 28 sockets
+- 3x DIP 40 sockets
+- 62256 or 6264 SRAM
+- 32K or 64K EPROM/EEPROM (e.g. 27E512)
+- PIA 6821 (e.g. MC6821L)
+- 9x 0.1uF capacitors (104)
+- 4x 10K resistors
+- 5x 2-pin square goldpins and jumpers
+- 2x 20-pin round goldpins
+- 10 wire ribbon cable (about 1m)
+- 10 pin IDC socket
+- 10 pin IDC connector
+- user port connector
+
+Optionally (not needed for C128DCR):
+
+- 40 pin IDC socket
+- 40 pin ribbon cable
+- 40 pin IDC to DIP socket adapter
+
 ## C128DCR preparation
 
-### 1. Desolder U101 (6502)
+1. Desolder U101 (6502)
 
 <img src="media/1.desolderu101.jpg" width=640 alt="C128DCR mainboard with U101 removed">
 
-### 2. Put a socket in that place
+2. Put a socket in that place
 
 <img src="media/2.socketu101.jpg" width=640 alt="C128DCR mainboard with socket in U101">
 
-### 3. Put back 6502 and test if the drive still works
+3. Put back 6502 and test if the drive still works
 
 ## PCB assembly
 
@@ -57,9 +80,11 @@ You can test the board already, even without the cable. After `UI` command it sh
 <img src="media/5.installed.jpg" width=640 alt="DolphinDOS 3 daughterboard installed in U101 socket">
 
 Note the cable alignment. When crimping the IDC connector make sure to align red wire with the small triangle on the connector.
-I didn't put strain relief part here because that could make the whole assembly to tall and bump against drive mechanism.
+I didn't put strain relief part here because that could make the whole assembly to tall and bump against drive mechanism. Having strain relief would also make it impossible to remove the table through user port opening without removing the mainboard first - it would be too tall.
 
-## Cable
+## Parallel cable
+
+I have routed the cable to the back of the computer, then under the power supply to the user port opening.
 
 | **USER PORT** | **signal** | **Flat 10** |
 | --- | --- | --- |
