@@ -110,9 +110,6 @@ The user port side looks like this. Side with 9 wires with red one connected to 
 
 <img src="media/6.cable.jpg" width=640 alt="Userport cable for DolphinDOS 3">
 
-Exactly the same cable pinout for 10-wire parallel cable coming in from 1541 is used in my [built-in Swiftlink coupled with CIA#2 project](https://github.com/ytmytm/c128-link232/blob/main/Swift-L%20(C128D)/plots/Link232-wifi.pdf).
-It can be used with [easy DolphinDOS 2 for 1541](https://github.com/ytmytm/1541-RAMBOardII)
-
 # Firmware / ROMs
 
 Firmware is in [roms/](roms/) folder:
@@ -128,6 +125,12 @@ Firmware is in [roms/](roms/) folder:
 [Supposedly](https://www.forum64.de/index.php?thread/21490-dolphindos/) the C128 Kernal ROM is based on earlier revision than the one used in C128DCR. This means it should be compared against stock ROM and reapplied on the last revision of the C128 Kernal.
 
 The same ROM is used for all 1571 drives. The 1571CR from C128DCR has a different MFM controller, so this part supposedly doesn't work anymore. Again, if DD3 ROM would be compared against stock 1571 DOS hopefully changes could be reapplied on the 1571CR ROM. However I think it's not as important as the C128 Kernal issue.
+
+## 1541
+
+For 1541-II instead of DolphinDOS 3 I recommend [DolphinDOS 2 which is much simpler and uses far fewer components](https://github.com/ytmytm/1541-RAMBOardII).
+
+Exactly the same cable pinout for 10-wire parallel cable coming in from 1541 is used in my [built-in Swiftlink coupled with CIA#2 project](https://github.com/ytmytm/c128-link232/blob/main/Swift-L%20(C128D)/plots/Link232-wifi.pdf).
 
 # Quick tests
 
